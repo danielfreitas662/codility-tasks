@@ -45,6 +45,5 @@ public static class SortingArray
     {
       result += $"{n} ";
     }
-    Console.WriteLine(result);
   }
 }
