@@ -2,7 +2,7 @@ using Tasks;
 
 namespace test;
 
-public class UnitTest1
+public class TruncateStringTests
 {
     [Theory]
     [InlineData("Codility We test coders", 1, "...")]
