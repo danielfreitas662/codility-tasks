@@ -1,7 +1,7 @@
 ﻿using Task;
 
-var l1array = new[] { 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 };
-var l2array = new[] { 5, 6, 4 };
+var l1array = new[] { 9,9,9,9,9,9,9};
+var l2array = new[] { 9,9,9,9 };
 
 ListNode l1 = new(l1array[0]);
 ListNode l2 = new(l2array[0]);
