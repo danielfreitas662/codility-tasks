@@ -20,19 +20,20 @@ public static class SortingArray
   }
   private static int Partition(int[] array, int low, int high)
   {
-    var i = low - 1;
+    var index = low - 1;
 
-    for (int j = low; j < high; j++)
+    for (int i = low; i < high; i++)
     {
-      if (array[j] < array[high])
+      if (array[i] < array[high])
       {
-        i++;
-        Swap(array, i, j);
+        index++;
+        Swap(array, index, i);
       }
     }
 
-    Swap(array, i + 1, high);
-    return i + 1;
+    Swap(array, index + 1, high);
+    
+    return index + 1;
   }
   private static void Swap(int[] array, int i, int j)
   {
