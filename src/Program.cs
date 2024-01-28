@@ -1,6 +1,18 @@
 ﻿using Tasks;
 
 
-Console.WriteLine(MediumOfTwoSortedArraysChallenge.FindMedianSortedArrays(new []{1, 2}, new[] {2, 3}));
-Console.WriteLine(MediumOfTwoSortedArraysChallenge.FindMedianSortedArrays(new []{1, 3}, new[] {2, 7}));
-Console.WriteLine(MediumOfTwoSortedArraysChallenge.FindMedianSortedArrays(new []{1, 3}, new[] {2}));
+
+FindMaxFishChallenge.FindMaxFish(
+    new int[][] {
+         new int[] { 0, 2, 1, 0 },
+         new int[] { 4, 0, 0, 3 },
+         new int[] { 1, 0, 0, 4 },
+          new int[] { 0, 3, 2, 0 }
+          }
+          );
+FindMaxFishChallenge.FindMaxFish(
+new int[][] {
+         new int[] { 4,5,5 },
+         new int[] { 0,10,0 }
+}
+);
