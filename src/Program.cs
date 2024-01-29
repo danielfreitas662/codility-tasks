@@ -1,21 +1,5 @@
-﻿using Task;
-using Tasks;
+﻿using Tasks;
 
 
-
-NumberOfIslands.NumIslands(
-    new char[][] {
-         new char[] { '1','1','1','1','0'},
-         new char[] { '1','1','0','1','0' },
-         new char[] { '1','1','0','0','0' },
-          new char[] { '0', '0', '0', '0', '0' }
-          }
-          );
-NumberOfIslands.NumIslands(
-    new char[][] {
-         new char[] { '1','1','0','0','0'},
-         new char[] { '1','1','0','0','0'},
-         new char[] { '0','0','1','0','0'},
-        new char[] { '0', '0', '0', '1', '1' }
-          }
-          );
+FindMaxFishChallengeStack.FindMaxFish(new int[][] { new int[] { 0, 2, 1, 0 }, new int[] { 4, 0, 0, 3 }, new int[] { 1, 0, 0, 4 }, new int[] { 0, 3, 2, 0 } });
+FindMaxFishChallengeStack.FindMaxFish(new int[][] { new int[] { 4, 5, 5 }, new int[] { 0, 10, 0 } });

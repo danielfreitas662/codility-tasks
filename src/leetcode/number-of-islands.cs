@@ -1,6 +1,4 @@
-using System.Collections;
-
-namespace Task;
+namespace Tasks;
 public class NumberOfIslands
 {
     public static int NumIslands(char[][] grid)
